@@ -1,0 +1,21 @@
+#coffeeOptions {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 50vw;
+    margin: 0 auto;
+}
+#coffeeOptions img {
+width: 25vw;
+}
+
+drinkDev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
