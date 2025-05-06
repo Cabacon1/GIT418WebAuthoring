@@ -1,4 +1,7 @@
 "use strict";
+$( function() {
+    $( "#tabs" ).tabs();
+  } );
 
 console.log("Hello, World!");
 let coffeeOptions = $("#coffeeOptions");
@@ -11,18 +14,23 @@ $.ajax({
     console.log(data);
     // Loop through data and pull out all the drinks and info for each of them
     // Display whatever you want on the page
-    for (let i = 0; i < data.length; i++) {
+    let html ="";
+
+
+        for (let i = 0; i < data.length; i++) {
         
         let drinkDiv = $("<div class='drinkItem'></div>");
         drinkDiv.append(`<h2>${data[i].title}</h2>`);
-        drinkDiv.append(`<p>${data[i].description}</p>`);
         drinkDiv.append(`<img src="${data[i].image}" alt="${data[i].title}">`);
+        drinkDiv.append(`<p>${data[i].description}</p>`);
         drinkDiv.append(`<p>Ingredients: ${data[i].ingredients.join(", ")}</p>`);
         drinkDiv.append(`<button onclick="pickFavorite(${data[i].id})">Pick as Favorite</button>`);
         $("#coffeeOptions").append(drinkDiv);
 
+        
     }
 
+    
 })
 
 
@@ -33,3 +41,5 @@ function pickFavorite() {
 function remindThemWhatTheirFavoriteIs() {
     // Pull from storage and print all the details about it
 }  
+
+

@@ -49,25 +49,53 @@ table {
 
 
 /* Custom CSS */
-body {
+
+* {
     box-sizing: border-box;
-	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
-	color: #333;
-    padding: 2rem auto;
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 100vw;
+}
+
+
 main {
+    padding: 1rem 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin: 1rem 0;
 }
 
 h1 {
+    flex: auto;
     font-size: 3rem;
 }
+
 h2{
     font-size: 2.5rem;
 }
-h3{
+h3 {
     font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
 }
 
 
@@ -75,7 +103,7 @@ h3{
     display: grid;
     width: 60vw;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
+	text-align: center;
 }
 
 #coffeeOptions img {
@@ -87,4 +115,9 @@ overflow-x: hidden;
     display: grid;
     width: 30vw;
     height: fit-content;
+	justify-items: center;
+}
+.drinkItem button{
+	padding: 1rem;
+	
 }
