@@ -28,15 +28,6 @@ $.ajax({
                             </div>`;
         $("#menuList").append(menuItem);
     }
-
-    // Call the imageCarousel function to initialize the carousel
-    // Localization object for translation
-    const localization = {
-        prevText: "Previous", // Replace with localized string
-        nextText: "Next"      // Replace with localized string
-    };
-
-    imageCarousel();
 });
 
 // Function to pick a favorite and store it in local storage
@@ -104,10 +95,9 @@ $(document).ready(function () {
 
 // Event listener for the "Show Favorites" button
 $("#showFavoritesButton").on("click", function () {
-    $(document).ready(function () {
-        // Call the imageCarousel function after the DOM is ready and coffeeData is populated
-        if (coffeeData.length > 0) {
-            imageCarousel();
-        }
-    })
-});  
+    $("#favoriteList").toggle();
+    displayFavorites();
+    $("#favoriteList").is(":visible") ? $(this).text("Hide Favorites") : $(this).text("Show Favorites");
+});
+
+
