@@ -6,6 +6,8 @@
 let coffeeData = [];
 
 let menuList = $("#menuList");
+let rslides = $(".rslides");
+
 $.ajax({
     url: `https://api.sampleapis.com/coffee/iced`,
     dataType: "json",
@@ -28,6 +30,23 @@ $.ajax({
                             </div>`;
         $("#menuList").append(menuItem);
     }
+
+    $(".rslides").empty();
+    for (let i = 0; i < data.length; i++) {
+        const slideItem = `<li><img src="${data[i].image}" alt="${data[i].title}"></li>`;
+        $(".rslides").append(slideItem);
+    }
+
+    $(function () {
+        $(".rslides").responsiveSlides({
+            auto: true,
+            speed: 500,
+            timeout: 3000,
+            pager: false,
+            nav: false,
+        });
+    });
+
 });
 
 // Function to pick a favorite and store it in local storage
@@ -100,16 +119,3 @@ $("#showFavoritesButton").on("click", function () {
     $("#favoriteList").is(":visible") ? $(this).text("Hide Favorites") : $(this).text("Show Favorites");
 });
 
-
-$(function () {
-    $(".rslides").responsiveSlides();
-});
-$(".rslides").responsiveSlides({
-    auto: true, // Boolean: Animate automatically, true or false
-    speed: 500, // Integer: Speed of the transition, in milliseconds
-    timeout: 3000, // Integer: Time between slide transitions, in milliseconds
-    pager: false, // Boolean: Show pager, true or false
-    nav: false, // Boolean: Show navigation buttons, true or false
-    pause: true, // Boolean: Pause on hover, true or false
-    pauseControls: true, // Boolean: Pause when hovering over controls, true or false
-});
