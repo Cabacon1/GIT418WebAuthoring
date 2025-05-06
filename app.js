@@ -101,3 +101,15 @@ $("#showFavoritesButton").on("click", function () {
 });
 
 
+$(function () {
+    $(".rslides").responsiveSlides();
+});
+$(".rslides").responsiveSlides({
+    auto: true, // Boolean: Animate automatically, true or false
+    speed: 500, // Integer: Speed of the transition, in milliseconds
+    timeout: 3000, // Integer: Time between slide transitions, in milliseconds
+    pager: false, // Boolean: Show pager, true or false
+    nav: false, // Boolean: Show navigation buttons, true or false
+    pause: true, // Boolean: Pause on hover, true or false
+    pauseControls: true, // Boolean: Pause when hovering over controls, true or false
+});
