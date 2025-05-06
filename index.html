@@ -6,10 +6,10 @@
     <title>Pick your Beverage</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
-    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js" async></script>
+    <link rel="stylesheet" href="/jquery-ui-1.14.1.custom/jquery-ui.theme.css">
+    <link rel="stylesheet" href="/jquery-ui-1.14.1.custom/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="jquery-ui-1.14.1.custom/jquery-ui.js" async></script>
     <script src="./app.js" async></script>
 </head>
 
@@ -19,10 +19,24 @@
             <h1>Pick your Beverage</h1>
         </header>
 
+        <!-- Coffee Options -->
+        <section id="menuSection">
+            <h2>Choose your coffee</h2>
+            <div id="menuList">
 
-        <section id="coffeeOptions">
-            
+            </div>
         </section>
+        <div id="dialog" title="Coffee selection">
+            <p>Please select your drink of choice<span id="coffeeName"></span> coffee.</p>
+            </p>
+        </div>
+        
+        <section id="favoriteDrink">
+
+        </section>
+        
+        <!-- display favorites -->
+         
     </main>
     <footer>
 
