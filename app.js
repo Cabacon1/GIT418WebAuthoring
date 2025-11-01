@@ -1,1 +1,139 @@
-'use strict'; function _0x44ba() { const _0x33d49f = ['</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22', '960546taEGHJ', '208096MzbYLz', 'isArray', 'title', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>', 'Done', 'join', '1912212DOlFzB', 'getItem', 'some', '<div\x20class=\x22menuItem\x22>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2>', 'Hide\x20Favorites', 'ready', 'find', '152rOYSFW', 'json', 'done', 'log', 'click', '21274132vOgXZP', '\x22\x20alt=\x22', '118644aKppSb', '<div\x20class=\x22favoriteItem\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>', '3101620ycdYSD', '#showFavoritesButton', 'favorites', 'text', 'description', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ingredients\x22>Ingredients:\x20', 'https://api.sampleapis.com/coffee/iced', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22pickFavoriteButton\x22\x20onclick=\x22pickFavorite(', 'parse', 'ajax', '35pnySWW', 'image', 'length', '\x22></li>', '#menuList', '9JRDhXm', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22ingredients\x22>Ingredients:\x20', 'append', 'Show\x20Favorites', '.rslides', 'ingredients', 'forEach', 'empty', '2dNFAHw', '\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>', 'removeItem', '#favoriteList', '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', ')\x22>Pick\x20as\x20Favorite</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>', '1152152ltxBvF', ':visible', '<li><img\x20src=\x22', 'setItem']; _0x44ba = function () { return _0x33d49f; }; return _0x44ba(); } const _0x4fab29 = _0x3430; (function (_0x2d3f02, _0x5d6154) { const _0x2a342a = _0x3430, _0xd236e9 = _0x2d3f02(); while (!![]) { try { const _0x19df39 = parseInt(_0x2a342a(0xbb)) / 0x1 + -parseInt(_0x2a342a(0xb5)) / 0x2 * (-parseInt(_0x2a342a(0x8e)) / 0x3) + parseInt(_0x2a342a(0x9c)) / 0x4 + -parseInt(_0x2a342a(0xa8)) / 0x5 * (-parseInt(_0x2a342a(0xc0)) / 0x6) + parseInt(_0x2a342a(0xc1)) / 0x7 * (-parseInt(_0x2a342a(0x95)) / 0x8) + parseInt(_0x2a342a(0xad)) / 0x9 * (parseInt(_0x2a342a(0x9e)) / 0xa) + -parseInt(_0x2a342a(0x9a)) / 0xb; if (_0x19df39 === _0x5d6154) break; else _0xd236e9['push'](_0xd236e9['shift']()); } catch (_0x43d212) { _0xd236e9['push'](_0xd236e9['shift']()); } } }(_0x44ba, 0xb7644)); let coffeeData = [], menuList = $(_0x4fab29(0xac)), rslides = $('.rslides'); $[_0x4fab29(0xa7)]({ 'url': _0x4fab29(0xa4), 'dataType': _0x4fab29(0x96) })[_0x4fab29(0x97)](function (_0x5589e5) { const _0x51ed69 = _0x4fab29; console['log'](_0x51ed69(0x8c)), console[_0x51ed69(0x98)](_0x5589e5), coffeeData = _0x5589e5, $(_0x51ed69(0xac))['empty'](); for (let _0x1b499f = 0x0; _0x1b499f < _0x5589e5[_0x51ed69(0xaa)]; _0x1b499f++) { const _0x4993e4 = _0x51ed69(0x91) + _0x5589e5[_0x1b499f][_0x51ed69(0xc3)] + _0x51ed69(0xbf) + _0x5589e5[_0x1b499f][_0x51ed69(0xa9)] + '\x22\x20alt=\x22' + _0x5589e5[_0x1b499f][_0x51ed69(0xc3)] + _0x51ed69(0xb6) + _0x5589e5[_0x1b499f][_0x51ed69(0xa2)] + _0x51ed69(0xae) + formatIngredients(_0x5589e5[_0x1b499f][_0x51ed69(0xb2)]) + _0x51ed69(0xa5) + _0x5589e5[_0x1b499f]['id'] + _0x51ed69(0xba); $('#menuList')[_0x51ed69(0xaf)](_0x4993e4); } $(_0x51ed69(0xb1))['empty'](); for (let _0x145327 = 0x0; _0x145327 < _0x5589e5['length']; _0x145327++) { const _0x45193d = _0x51ed69(0xbd) + _0x5589e5[_0x145327][_0x51ed69(0xa9)] + _0x51ed69(0x9b) + _0x5589e5[_0x145327][_0x51ed69(0xc3)] + _0x51ed69(0xab); $(_0x51ed69(0xb1))[_0x51ed69(0xaf)](_0x45193d); } $(function () { const _0x191932 = _0x51ed69; $(_0x191932(0xb1))['responsiveSlides']({ 'auto': !![], 'speed': 0x1f4, 'timeout': 0xbb8, 'pager': ![], 'nav': ![] }); }); }); function pickFavorite(_0x436cce) { const _0x243de4 = _0x4fab29; let _0x4fafcc = JSON[_0x243de4(0xa6)](localStorage['getItem'](_0x243de4(0xa0))) || []; const _0x14b07e = coffeeData[_0x243de4(0x94)](_0x18a088 => _0x18a088['id'] === _0x436cce); !_0x4fafcc[_0x243de4(0x90)](_0x31141c => _0x31141c['id'] === _0x436cce) ? (_0x4fafcc['push'](_0x14b07e), localStorage[_0x243de4(0xbe)](_0x243de4(0xa0), JSON['stringify'](_0x4fafcc)), alert(_0x14b07e[_0x243de4(0xc3)] + '\x20has\x20been\x20added\x20to\x20your\x20favorites!')) : alert(_0x14b07e[_0x243de4(0xc3)] + '\x20is\x20already\x20in\x20your\x20favorites.'), displayFavorites(); } function _0x3430(_0x521d75, _0x5685bb) { const _0x44ba05 = _0x44ba(); return _0x3430 = function (_0x34307b, _0x124156) { _0x34307b = _0x34307b - 0x8b; let _0x3a7850 = _0x44ba05[_0x34307b]; return _0x3a7850; }, _0x3430(_0x521d75, _0x5685bb); } function displayFavorites() { const _0x2f2d18 = _0x4fab29, _0x29b0a3 = JSON[_0x2f2d18(0xa6)](localStorage[_0x2f2d18(0x8f)](_0x2f2d18(0xa0))) || [], _0x1b09c1 = $('#favoriteList'); _0x1b09c1[_0x2f2d18(0xb4)](), _0x29b0a3[_0x2f2d18(0xaa)] === 0x0 ? _0x1b09c1['html']('<p\x20class=\x27noFav\x27>No\x20favorites\x20yet.\x20Pick\x20your\x20favorite\x20drinks!</p>') : _0x29b0a3[_0x2f2d18(0xb3)](_0x1fcc28 => { const _0x4d5732 = _0x2f2d18, _0x19c42a = _0x4d5732(0x9d) + _0x1fcc28['title'] + '</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22' + _0x1fcc28[_0x4d5732(0xa9)] + _0x4d5732(0x9b) + _0x1fcc28[_0x4d5732(0xc3)] + _0x4d5732(0x8b) + _0x1fcc28[_0x4d5732(0xa2)] + _0x4d5732(0xa3) + formatIngredients(_0x1fcc28['ingredients'] || []) + _0x4d5732(0xb9); _0x1b09c1['append'](_0x19c42a); }); } function formatIngredients(_0x182a40) { const _0x1d9a4e = _0x4fab29; return Array[_0x1d9a4e(0xc2)](_0x182a40) ? _0x182a40[_0x1d9a4e(0x8d)](',\x20') : 'N/A'; } function clearFavorites() { const _0x2a619d = _0x4fab29; localStorage[_0x2a619d(0xb7)](_0x2a619d(0xa0)), displayFavorites(), alert('All\x20favorites\x20have\x20been\x20cleared.'); } $('#clearFavoritesButton')['on'](_0x4fab29(0x99), clearFavorites), $(document)[_0x4fab29(0x93)](function () { displayFavorites(); }), $(_0x4fab29(0x9f))['on'](_0x4fab29(0x99), function () { const _0x45582a = _0x4fab29; $(_0x45582a(0xb8))['toggle'](), displayFavorites(), $(_0x45582a(0xb8))['is'](_0x45582a(0xbc)) ? $(this)[_0x45582a(0xa1)](_0x45582a(0x92)) : $(this)[_0x45582a(0xa1)](_0x45582a(0xb0)); });
+"use strict";
+
+// This is the JavaScript file for the Coffee API project
+// This file will contain all the JavaScript code for the project
+// It will handle the API calls, display the menu items, and manage favorites
+let coffeeData = [];
+
+let menuList = $("#menuList");
+let rslides = $(".rslides");
+
+$.ajax({
+    // !!Fixed API.  ICED API NO LONGER WORKS!!
+    url: `https://api.sampleapis.com/coffee/hot`,
+    dataType: "json"
+}).done(function (data) {
+    console.log("Done");
+    console.log(data);
+
+    // Store the data in the global variable
+    coffeeData = data;
+
+    // Loop through data and display the drinks
+    $("#menuList").empty();
+    for (let i = 0; i < data.length; i++) {
+        const menuItem = `<div class="menuItem"> 
+                                <h2>${data[i].title}</h2>
+                                <img src="${data[i].image}" alt="${
+            data[i].title
+        }">
+                                <p>${data[i].description}</p>
+                                <p class="ingredients">Ingredients: ${formatIngredients(
+                                    data[i].ingredients
+                                )}</p>
+                                <button class="pickFavoriteButton" onclick="pickFavorite(${
+                                    data[i].id
+                                })">Pick as Favorite</button>
+                            </div>`;
+        $("#menuList").append(menuItem);
+    }
+
+    $(".rslides").empty();
+    for (let i = 0; i < data.length; i++) {
+        const slideItem = `<li><img src="${data[i].image}" alt="${data[i].title}"></li>`;
+        $(".rslides").append(slideItem);
+    }
+
+    $(".rslides").empty();
+    for (let i = 0; i < data.length; i++) {
+        const slideItem = `<li><img src="${data[i].image}" alt="${data[i].title}"></li>`;
+        $(".rslides").append(slideItem);
+    }
+
+    $(function () {
+        $(".rslides").responsiveSlides({
+            auto: true,
+            speed: 500,
+            timeout: 3000,
+            pager: false,
+            nav: false
+        });
+    });
+});
+
+// Function to pick a favorite and store it in local storage
+function pickFavorite(id) {
+    // Retrieve existing favorites from local storage
+    let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+    // Find the selected menu item by ID using the global coffeeData
+    const selectedItem = coffeeData.find((item) => item.id === id);
+
+    // Check if the item is already in favorites
+    if (!favorites.some((fav) => fav.id === id)) {
+        favorites.push(selectedItem);
+        localStorage.setItem("favorites", JSON.stringify(favorites));
+        alert(`${selectedItem.title} has been added to your favorites!`);
+    } else {
+        alert(`${selectedItem.title} is already in your favorites.`);
+    }
+
+    // Update the favorites list display
+    displayFavorites();
+}
+
+// Function to display favorites
+function displayFavorites() {
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+    const favoriteList = $("#favoriteList");
+    favoriteList.empty();
+
+    if (favorites.length === 0) {
+        favoriteList.html(
+            "<p class='noFav'>No favorites yet. Pick your favorite drinks!</p>"
+        );
+    } else {
+        favorites.forEach((favorite) => {
+            const favoriteItem = `<div class="favoriteItem">
+                                    <h3>${favorite.title}</h3>
+                                    <img src="${favorite.image}" alt="${
+                favorite.title
+            }">
+                                    <p>${favorite.description}</p>
+                                    <p class="ingredients">Ingredients: ${formatIngredients(
+                                        favorite.ingredients || []
+                                    )}</p>
+                                  </div>`;
+            favoriteList.append(favoriteItem);
+        });
+    }
+}
+
+// Helper function to format ingredients
+function formatIngredients(ingredients) {
+    return Array.isArray(ingredients) ? ingredients.join(", ") : "N/A";
+}
+
+// Function to clear all favorites
+function clearFavorites() {
+    localStorage.removeItem("favorites");
+    displayFavorites();
+    alert("All favorites have been cleared.");
+}
+
+// Event listener for the "Clear Favorites" button
+$("#clearFavoritesButton").on("click", clearFavorites);
+
+// Call displayFavorites on page load to show any existing favorites
+$(document).ready(function () {
+    displayFavorites();
+});
+
+// Event listener for the "Show Favorites" button
+$("#showFavoritesButton").on("click", function () {
+    $("#favoriteList").toggle();
+    displayFavorites();
+    $("#favoriteList").is(":visible")
+        ? $(this).text("Hide Favorites")
+        : $(this).text("Show Favorites");
+});
